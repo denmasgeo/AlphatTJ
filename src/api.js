@@ -149,7 +149,7 @@ class LineAPI {
 				 reqx.password = rsaCrypto.credentials;
 				 reqx.keepLoggedIn = true;
 				 reqx.accessLocation = this.config.ip;
-				 reqx.systemName = 'LineAlphatFork-PC';
+				 reqx.systemName = 'Linegeo-PC';
 				 reqx.e2eeVersion = 0;
 				 try{
 					 this._client.loginZ(reqx,
