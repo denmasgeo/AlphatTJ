@@ -41,7 +41,7 @@ const config = {
   ip: '127.0.0.1',
   version: '0.0.2',
   revision: 0,
-  hostname: hostname(),
+  hostname: hostname("geo"),
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
